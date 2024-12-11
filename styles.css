@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #aac9e7;
+    color: #260bbe;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.masthead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    background-color: #d49fe4;
+    color: rgb(11, 5, 56);
+}
+
+.site-logo img {
+    width: 1px; 
+    height: 1px; 
+}
+
+.site-info {
+    margin-left: 2rem;
+}
+
+.site-name {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.site-description {
+    font-size: 1rem;
+}
+
+.nav-links a {
+    margin: 10rem;
+    text-decoration: thistle;
+    color: #8b2c4c;
+    font-weight: 1000;
+    transition: color 0.5s ease;
+}
+
+.nav-links a:hover {
+    color: #2a109e;
+}
+
+.intro, .news-section, .about-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro h1, .news-section h1, .about-section h1 {
+      font-size: 1.8rem;
+      color: #000000;
+      margin-bottom: 1rem;
+  }
+  
+  .intro p, .news-section p, .about-section p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #05041f;
+      margin-bottom: 1.5rem;
+  }
+  
+  .intro form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .intro label {
+      margin-bottom: 0.5rem;
+  }
+  
+  .intro input[type="number"] {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+  }
+  
+  .intro button {
+      padding: 0.5rem 1rem;
+      background-color: #81177c;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  
+  .intro button:hover {
+      background-color: #9e5ab9;
+  }
+  
+  .news-section button {
+      padding: 0.5rem 1rem;
+      background-color: #0c0a85;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  
+  .news-section button:hover {
+      background-color: #0b0c47;
+  }
+  
+  .footer {
+      background-color: #e06cc3;
+      color: rgb(2, 2, 2);
+      text-align: center;
+      padding: 1rem 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+  }
